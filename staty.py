@@ -9,3 +9,5 @@ vyznamne_staty = staty[(staty["population"] > 50_000_000) & (staty["area"] > 3_0
 # Státy západní a východní Evropy
 staty_zap_vych_evropa = staty[staty["subregion"].isin(["Western Europe", "Eastern Europe"])]
 print(staty_zap_vych_evropa)
+
+# Komentář
